@@ -1,0 +1,26 @@
+<html ng-app="app">
+	<head>
+		<title>Menu</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script type="text/javascript" src="js/app.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  			<ul class="navbar-nav">
+    			<li class="nav-item active">
+      				<a class="nav-link" href="#">Menu</a>
+    			</li>
+    			<li class="nav-item">
+      				<a class="nav-link" href="#/lista">Listar Usuários</a>
+    			</li>
+    			<li class="nav-item">
+      				<a class="nav-link" href="#/cadastrar">Cadastrar Usuário</a>
+    			</li>    	
+  			</ul>
+		</nav>
+		<div ng-view></div>
+	</body>
+</html>
