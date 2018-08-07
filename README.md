@@ -1,2 +1,2 @@
 # CadastroDeUsuarios
-Cadastro de Usuario, frontend com AngularJS e backend com java 
+Cadastro de Usuario, frontend com AngularJS e backend com java.
