@@ -18,5 +18,12 @@ Nele contem uma barra de menu com os seguintes itens:
 
 ### Deploy
 
+* Fazer Download ou git clone deste repositorio https://github.com/guilhermeFelice/CadastroDeUsuarios.
+
+* Copiar o arquivo ".war" em CadastroDeUsuarios/target/CadastroDeUsuarios.war e colar <service-tomcat>/webapps/CadastroDeUsuarios.war
+
+* Reiniciar servidor tomcat. Exemplo: service tomcat7 restart
+
+* Acessar http://localhost:8080/CadastroDeUsuarios/index.html em um navegador qualquer.
 
 
